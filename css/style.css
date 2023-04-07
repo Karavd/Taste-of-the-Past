@@ -1,0 +1,41 @@
+.cardContainer {
+    text-align: center;
+  }
+      
+.card-title {
+    font-family: 'Berkshire Swash', cursive; 
+}
+
+.card-text {
+    font-family: 'Belleza', sans-serif;
+}
+
+.card-body {
+    background-color: #15637B;
+    color: white;
+}
+
+body {
+    background-color: #FFE0C7;
+}
+
+.content {
+    padding: 60px;
+}
+
+.card-img-top {
+    background-color: #FFE0C7;
+}
+@media only screen and (max-width: 600px) {
+   
+
+    }
+
+
+   
+
+
+
+@media only screen and (min-width: 600px) {
+    
+  }
