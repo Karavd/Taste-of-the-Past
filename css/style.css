@@ -73,6 +73,20 @@ body {
 
 }
 
+.circleDiv {
+    border-radius: 50%;
+    height: 100%;
+    width: 20em;
+    overflow: visible;
+    wrap
+    background-color: red;
+    margin-left: -1em;
+}
+
+.raiseCenter {
+    margin-top: -7em;
+}
+
 .bg-light {
     background-color: #FFE0C7!important;
 }
