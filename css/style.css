@@ -10,6 +10,26 @@
     font-family: 'Belleza', sans-serif;
 }
 
+.belleza {
+    font-family: 'Belleza', sans-serif;
+}
+
+.bellota {
+    font-family: 'Bellota', cursive;
+}
+
+.berkshire {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.whyImages {
+    height: 1.75rem;
+}
+
+.rightWhySections{
+    margin-left: -.5em;
+}
+
 .card-body {
     background-color: #15637B;
     color: white;
@@ -19,9 +39,7 @@ body {
     background-color: #FFE0C7;
 }
 
-.content {
-    padding: 60px;
-}
+
 
 .card-img-top {
     background-color: #FFE0C7;
@@ -59,16 +77,17 @@ body {
 }
 
 
+.limeGreen {
+    background-color: #E9F88B;
+}
 
 
+/* @media (min-width:768px) {
+.card-text {
+    height: 120px;
+}
+    } */
 
-@media only screen and (max-width: 600px) {
-   
-
-    }
-
-
-   
 
 
 
