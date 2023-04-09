@@ -8,6 +8,7 @@
 
 .card-text {
     font-family: 'Belleza', sans-serif;
+    height: 4em;
 }
 
 .belleza {
@@ -91,6 +92,12 @@ body {
 
 
 
-@media only screen and (min-width: 600px) {
-    
+@media only screen and (min-width: 768px) and (max-width: 962px) {
+    .card-text {
+        height: 120px;
+    }
+
+    .card-title {
+        height: 2em;
+    }
   }
