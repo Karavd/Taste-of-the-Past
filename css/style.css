@@ -97,11 +97,21 @@ margin-left: 2em;
 }
 
 
-/* @media (min-width:768px) {
-.card-text {
-    height: 120px;
-}
-    } */
+@media (max-width: 600px) {
+    .jumbotron {
+        background-image: url(../images/Jumbo\ Background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: calc(45vh - 10px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+
+
+
+    }
 
 
 
