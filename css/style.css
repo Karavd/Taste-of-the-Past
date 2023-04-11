@@ -74,12 +74,12 @@ body {
 }
 
 .greenPlusCircle{
-    height: 32rem;
+    height: 30rem;
 }
 
 .circleDiv {
     border-radius: 50%;
-    height: 85%;
+    height: 80%;
     padding: 5vw 20vw;
     width: 20em;
     overflow: hidden;
@@ -93,7 +93,7 @@ body {
 
 .raiseCenter {
     position: relative;
-    right: 3em;
+    right: 4em;
 }
 
 .textWidth{
@@ -129,6 +129,11 @@ body {
     color: #fff;
     background-color: #15637B;
     border-color: white; 
+}
+
+.nav-item {
+    font-family: 'Belleza', sans-serif;
+
 }
 
 @media (max-width: 600px) {
