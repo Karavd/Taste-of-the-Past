@@ -73,20 +73,38 @@ body {
 
 }
 
+.greenPlusCircle{
+    height: 32rem;
+}
+
 .circleDiv {
     border-radius: 50%;
-    height: 100%;
-    padding: 20vw;
+    height: 85%;
+    padding: 5vw 20vw;
     width: 20em;
-    overflow: visible;
-    background-color: #37B0CF;
-margin-left: 2em;
+    overflow: hidden;
+    background-color: #9CC8CA;
+    margin-left: 0;
+}
+
+.gutterGone{
+    padding-left: 0;
 }
 
 .raiseCenter {
-    margin-top: -7em;
+    position: relative;
+    right: 3em;
 }
 
+.textWidth{
+    width: 4.5em;
+}
+
+.widthContent{
+    width: max-content;
+    margin-top: 1rem;
+    margin-left: -1.5rem;
+}
 .bg-light {
     background-color: #FFE0C7!important;
 }
@@ -96,6 +114,22 @@ margin-left: 2em;
     background-color: #E9F88B;
 }
 
+.btn {
+    background-color: #F0676F;
+    font-family: 'Bellota', cursive;
+    border: white;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #F0676F;
+    border-color: white; 
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #15637B;
+    border-color: white; 
+}
 
 @media (max-width: 600px) {
     .jumbotron {
@@ -108,7 +142,6 @@ margin-left: 2em;
         justify-content: center;
       }
     
-
 
 
     }
@@ -125,3 +158,29 @@ margin-left: 2em;
         height: 2em;
     }
   }
+@media only screen and (max-width: 767px){
+    .circleDiv{
+        padding: 3rem 1;
+        margin: auto;
+        height: auto;
+        width: 100%;
+    }
+    .raiseCenter{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .textWidth{
+        width: 8em;
+        text-align: center;
+    }
+    .widthContent{
+        padding-left: 0;
+    }
+    .gutterGone{
+        padding-right: 0;
+    }
+}
+
