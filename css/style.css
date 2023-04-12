@@ -257,6 +257,9 @@ body {
         display: none;
     }
     
+    .tasteLogo{
+        max-width: 40%;
+    }
     
 }
 
@@ -269,6 +272,10 @@ body {
 }
 
 .searchLogo {
+    display: none;
+}
+
+.hideHam{
     display: none;
 }
 
@@ -286,6 +293,10 @@ body {
     }
     .tasteLogo{
         margin-top: -1.5em;
+    }
+
+    .showHam{
+        display: none;
     }
 
     
