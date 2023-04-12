@@ -73,9 +73,6 @@ body {
 
 }
 
-.greenPlusCircle{
-    height: 30rem;
-}
 
 .circleDiv {
     border-radius: 50%;
@@ -133,8 +130,65 @@ body {
 
 .nav-item {
     font-family: 'Belleza', sans-serif;
+}
+
+.footer {
+    background-color: #15637B;
+    color: white;
 
 }
+
+.android {
+    height: 8vh;
+}
+
+.apple {
+    height: 6vh;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+
+}
+
+.logoImg {
+    width: 8em;
+}
+
+.nav-item {
+        float: left;
+        padding: 0 10px;
+        font-size: 16px;
+        border-right: 1px black solid;
+      
+}
+.lefty{
+    float:left;
+}
+.righty{
+    float: right;
+}
+
+.nav-item:last-child {
+        border-right: none;
+      
+}
+
+#navbarSupportedContent {
+    margin-top: 2.5em;
+}
+
+.navbar {
+    border-bottom: black solid;
+    border-width: .5px;
+    width: 90%;
+    margin:auto ;
+}
+
+.jumbotron {
+    margin-top: 2em;
+}
+
 
 @media (max-width: 600px) {
     .jumbotron {
@@ -183,9 +237,30 @@ body {
     }
     .widthContent{
         padding-left: 0;
+        margin-left: 0;
     }
     .gutterGone{
         padding-right: 0;
+    }
+
+    .cardContainer {
+        margin-bottom: 2em;
+    }
+
+   
+}
+
+
+@media only screen and (min-width: 992px){
+    .textWidth{
+        width: 8em;
+    }
+    .shiftLeft{
+        position: relative;
+        right: 2em;
+    }
+    .tasteLogo{
+        margin-top: -1.5em;
     }
 }
 
